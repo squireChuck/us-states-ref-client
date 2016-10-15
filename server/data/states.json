@@ -1,0 +1,402 @@
+[
+    {
+        "name" : "Alabama",
+        "abbrev" : "AL",
+        "capital" : "Montgomery", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Alaska",
+        "abbrev" : "AK",
+        "capital" : "Juneau", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1-7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Arizona",
+        "abbrev" : "AZ",
+        "capital" : "Phoenix", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 5-6 num's\n2 char's, 5 num's\n9 num's\n1 char's, 8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Arkansas",
+        "abbrev" : "AR",
+        "capital" : "Little Rock", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "California",
+        "abbrev" : "CA",
+        "capital" : "Sacramento", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Colorado",
+        "abbrev" : "CO",
+        "capital" : "Denver", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Connecticut",
+        "abbrev" : "CT",
+        "capital" : "Hartford", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Delaware",
+        "abbrev" : "DE",
+        "capital" : "Dover", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "4-7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Florida",
+        "abbrev" : "FL",
+        "capital" : "Tallahassee", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 11-12 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Georgia",
+        "abbrev" : "GA",
+        "capital" : "Atlanta", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "6-9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Hawaii",
+        "abbrev" : "HI",
+        "capital" : "Honolulu", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\nLetter \"H\" and 8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Idaho",
+        "abbrev" : "ID",
+        "capital" : "Boise", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n2 char's, 6 num's, 1 char's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Illinois",
+        "abbrev" : "IL",
+        "capital" : "Springfield", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 11 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Indiana",
+        "abbrev" : "IN",
+        "capital" : "Indianapolis", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 9 num's\n10 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Iowa",
+        "abbrev" : "IA",
+        "capital" : "Des Moines", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n7 char's, 2 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Kansas",
+        "abbrev" : "KS",
+        "capital" : "Topeka", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\nLetter \"K\", 8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Kentucky",
+        "abbrev" : "KY",
+        "capital" : "Frankfort", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9-10 num's\n1 char's, 8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Louisiana",
+        "abbrev" : "LA",
+        "capital" : "Baton Rouge", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "\"00\" + 7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Maine",
+        "abbrev" : "ME",
+        "capital" : "Augusta", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Maryland",
+        "abbrev" : "MD",
+        "capital" : "Annapolis", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Massachusetts",
+        "abbrev" : "MA",
+        "capital" : "Boston", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 8 num's\n9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Michigan",
+        "abbrev" : "MI",
+        "capital" : "Lansing", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Minnesota",
+        "abbrev" : "MN",
+        "capital" : "St. Paul", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Mississippi",
+        "abbrev" : "MS",
+        "capital" : "Jackson", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Missouri",
+        "abbrev" : "MO",
+        "capital" : "Jefferson City", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 6-7 num's\n9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Montana",
+        "abbrev" : "MT",
+        "capital" : "Helena", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n13 num's\n1 char's, 1 num's, 1 char's, 2 num's, 3 char's, and 1 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Nebraska",
+        "abbrev" : "NE",
+        "capital" : "Lincoln", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 6-8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Nevada",
+        "abbrev" : "NV",
+        "capital" : "Carson City", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n10 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "New Hampshire",
+        "abbrev" : "NH",
+        "capital" : "Concord", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "2 num's, 3 char's, 5 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "New Jersey",
+        "abbrev" : "NJ",
+        "capital" : "Trenton", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 14 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "New Mexico",
+        "abbrev" : "NM",
+        "capital" : "Santa Fe", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "8 num's\n9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "New York",
+        "abbrev" : "NY",
+        "capital" : "Albany", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "North Carolina",
+        "abbrev" : "NC",
+        "capital" : "Raleigh", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "4-8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : " North Dakota",
+        "abbrev" : "ND",
+        "capital" : "Bismarck", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n3 char's, 6 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Ohio",
+        "abbrev" : "OH",
+        "capital" : "Columbus", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n2 char's, 6 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Oklahoma",
+        "abbrev" : "OK",
+        "capital" : "Oklahoma City", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Oregon",
+        "abbrev" : "OR",
+        "capital" : "Salem", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "6-7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Pennsylvania",
+        "abbrev" : "PA",
+        "capital" : "Harrisburg", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Rhode Island",
+        "abbrev" : "RI",
+        "capital" : "Providence", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "7 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "South Carolina",
+        "abbrev" : "SC",
+        "capital" : "Columbia", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "7 num's\n9 num's with 2 zeros in front", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "South Dakota",
+        "abbrev" : "SD",
+        "capital" : "Pierre", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "8 num's\n9 num's\n11 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Tennessee",
+        "abbrev" : "TN",
+        "capital" : "Nashville", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "7-9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Texas",
+        "abbrev" : "TX",
+        "capital" : "Austin", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "8 num's beginning with 0, 1, or 2", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Utah",
+        "abbrev" : "UT",
+        "capital" : "Salt Lake City", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "6-9 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Vermont",
+        "abbrev" : "VT",
+        "capital" : "Montpelier", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "8 num's\n7 num's, 1 char's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Virginia",
+        "abbrev" : "VA",
+        "capital" : "Richmond", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9 num's\n1 char's, 8 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Washington",
+        "abbrev" : "WA",
+        "capital" : "Olympia", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "5 char's, 1 char's, 1 char's, 3 num's, 2 chars", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "West Virginia",
+        "abbrev" : "WV",
+        "capital" : "Charleston", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 6 num's\n2 char's, 5 num's\nthe number \"1\", the letter \"X\", 5 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Wisconsin",
+        "abbrev" : "WI",
+        "capital" : "Madison", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "1 char's, 13 num's", 
+        "sampleLicense" : ""
+    }, 
+    {
+        "name" : "Wyoming",
+        "abbrev" : "WY",
+        "capital" : "Cheyenne", 
+        "addresses" : [], 
+        "driversLicenseDescription" : "9-10 num's", 
+        "sampleLicense" : ""
+    }
+]

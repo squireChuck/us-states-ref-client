@@ -1,3 +1,17 @@
+/*
+    REST ideas
+    GET /states => all state obj's
+    GET /states/name/:name => info on state with name
+    GET /states/abbrev/:abbrev => info on state with abbrev
+    GET /states/(name|abbrev)/(:name|:abbrev)/(capital|addresses|driversLicenseDescription|sampleLicense)    addresses => all addresses
+    GET /states/(name|abbrev)/(:name|:abbrev)/addresses => all addresses
+    GET /states/(name|abbrev)/(:name|:abbrev)/addresses/:index => single address
+*/
+// require is synchronous, but acceptable as long as there's a 
+// low expectation of the states data changing.
+console.log('Getting state info on server start up...');
+var statesList = require('../data/states');
+
 module.exports = function(app) {
 
     // GET endpoint
@@ -6,7 +20,7 @@ module.exports = function(app) {
         console.log("In the GET /app/api/v1 endpoint");
 
         // Return json in the response.
-        res.send({"msg": "in the GET /app/api/v1 endpoint"});
+        res.send(statesList[0]);
     });
 
     // Second GET endpoint
