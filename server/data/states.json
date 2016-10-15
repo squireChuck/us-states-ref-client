@@ -3,9 +3,28 @@
         "name" : "Alabama",
         "abbrev" : "AL",
         "capital" : "Montgomery", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1563214"
     }, 
     {
         "name" : "Alaska",
@@ -38,384 +57,1296 @@
         "name" : "Arizona",
         "abbrev" : "AZ",
         "capital" : "Phoenix", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 5-6 num's\n2 char's, 5 num's\n9 num's\n1 char's, 8 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156654489"
     }, 
     {
         "name" : "Arkansas",
         "abbrev" : "AR",
         "capital" : "Little Rock", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "111321156"
     }, 
     {
         "name" : "California",
         "abbrev" : "CA",
         "capital" : "Sacramento", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A3544567"
     }, 
     {
         "name" : "Colorado",
         "abbrev" : "CO",
         "capital" : "Denver", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "2 char's, 6 num's\n9 num's", 
+        "sampleLicense" : "AB123654"
     }, 
     {
         "name" : "Connecticut",
         "abbrev" : "CT",
         "capital" : "Hartford", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156156321"
     }, 
     {
         "name" : "Delaware",
         "abbrev" : "DE",
         "capital" : "Dover", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "4-7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1156657"
     }, 
     {
         "name" : "Florida",
         "abbrev" : "FL",
         "capital" : "Tallahassee", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 11-12 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A15665448977"
     }, 
     {
         "name" : "Georgia",
         "abbrev" : "GA",
         "capital" : "Atlanta", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "6-9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "45335478"
     }, 
     {
         "name" : "Hawaii",
         "abbrev" : "HI",
         "capital" : "Honolulu", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\nLetter \"H\" and 8 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123320321"
     }, 
     {
         "name" : "Idaho",
         "abbrev" : "ID",
         "capital" : "Boise", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n2 char's, 6 num's, 1 char's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "456987789"
     }, 
     {
         "name" : "Illinois",
         "abbrev" : "IL",
         "capital" : "Springfield", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 11 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "C45665478933"
     }, 
     {
         "name" : "Indiana",
         "abbrev" : "IN",
         "capital" : "Indianapolis", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 9 num's\n10 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A123320123"
     }, 
     {
         "name" : "Iowa",
         "abbrev" : "IA",
         "capital" : "Des Moines", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n7 char's, 2 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "456987456"
     }, 
     {
         "name" : "Kansas",
         "abbrev" : "KS",
         "capital" : "Topeka", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\nLetter \"K\", 8 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123321123"
     }, 
     {
         "name" : "Kentucky",
         "abbrev" : "KY",
         "capital" : "Frankfort", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "9-10 num's\n1 char's, 8 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "1 char's, 8 num's\n9-10 num's", 
+        "sampleLicense" : "A12365445"
     }, 
     {
         "name" : "Louisiana",
         "abbrev" : "LA",
         "capital" : "Baton Rouge", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "\"00\" + 7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "001563217"
     }, 
     {
         "name" : "Maine",
         "abbrev" : "ME",
         "capital" : "Augusta", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1234567"
     }, 
     {
         "name" : "Maryland",
         "abbrev" : "MD",
         "capital" : "Annapolis", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 12 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A123654789654"
     }, 
     {
         "name" : "Massachusetts",
         "abbrev" : "MA",
         "capital" : "Boston", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 8 num's\n9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A32165465"
     }, 
     {
         "name" : "Michigan",
         "abbrev" : "MI",
         "capital" : "Lansing", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 12 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A123654456321"
     }, 
     {
         "name" : "Minnesota",
         "abbrev" : "MN",
         "capital" : "St. Paul", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 12 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "B321123654456"
     }, 
     {
         "name" : "Mississippi",
         "abbrev" : "MS",
         "capital" : "Jackson", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156651651"
     }, 
     {
         "name" : "Missouri",
         "abbrev" : "MO",
         "capital" : "Jefferson City", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "1 char's, 6-7 num's\n9 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "9 num's\n1 char's, 6-7 num's", 
+        "sampleLicense" : "156321456"
     }, 
     {
         "name" : "Montana",
         "abbrev" : "MT",
         "capital" : "Helena", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n13 num's\n1 char's, 1 num's, 1 char's, 2 num's, 3 char's, and 1 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123321123"
     }, 
     {
         "name" : "Nebraska",
         "abbrev" : "NE",
         "capital" : "Lincoln", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 6-8 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "B456321"
     }, 
     {
         "name" : "Nevada",
         "abbrev" : "NV",
         "capital" : "Carson City", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n10 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123321123"
     }, 
     {
         "name" : "New Hampshire",
         "abbrev" : "NH",
         "capital" : "Concord", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "2 num's, 3 char's, 5 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "12ABC32145"
     }, 
     {
         "name" : "New Jersey",
         "abbrev" : "NJ",
         "capital" : "Trenton", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 14 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "C32145698745655"
     }, 
     {
         "name" : "New Mexico",
         "abbrev" : "NM",
         "capital" : "Santa Fe", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "8 num's\n9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "15665445"
     }, 
     {
         "name" : "New York",
         "abbrev" : "NY",
         "capital" : "Albany", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156321456"
     }, 
     {
         "name" : "North Carolina",
         "abbrev" : "NC",
         "capital" : "Raleigh", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "4-8 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "12 num's", 
+        "sampleLicense" : "123321456654"
     }, 
     {
         "name" : "North Dakota",
         "abbrev" : "ND",
         "capital" : "Bismarck", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n3 char's, 6 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156321456"
     }, 
     {
         "name" : "Ohio",
         "abbrev" : "OH",
         "capital" : "Columbus", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's\n2 char's, 6 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156321456"
     }, 
     {
         "name" : "Oklahoma",
         "abbrev" : "OK",
         "capital" : "Oklahoma City", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156651651"
     }, 
     {
         "name" : "Oregon",
         "abbrev" : "OR",
         "capital" : "Salem", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "6-7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1233214"
     }, 
     {
         "name" : "Pennsylvania",
         "abbrev" : "PA",
         "capital" : "Harrisburg", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "8 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "15665478"
     }, 
     {
         "name" : "Rhode Island",
         "abbrev" : "RI",
         "capital" : "Providence", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1233214"
     }, 
     {
         "name" : "South Carolina",
         "abbrev" : "SC",
         "capital" : "Columbia", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "7 num's\n9 num's with 2 zeros in front", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1566544"
     }, 
     {
         "name" : "South Dakota",
         "abbrev" : "SD",
         "capital" : "Pierre", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "8 num's\n9 num's\n11 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "7 num's\n8 num's\n9 num's\n11 num's", 
+        "sampleLicense" : "1566544"
     }, 
     {
         "name" : "Tennessee",
         "abbrev" : "TN",
         "capital" : "Nashville", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "7-9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123654456"
     }, 
     {
         "name" : "Texas",
         "abbrev" : "TX",
         "capital" : "Austin", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "8 num's beginning with 0, 1, or 2", 
-        "sampleLicense" : ""
+        "sampleLicense" : "01232144"
     }, 
     {
         "name" : "Utah",
         "abbrev" : "UT",
         "capital" : "Salt Lake City", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "6-9 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "123321456"
     }, 
     {
         "name" : "Vermont",
         "abbrev" : "VT",
         "capital" : "Montpelier", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "8 num's\n7 num's, 1 char's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "15615665"
     }, 
     {
         "name" : "Virginia",
         "abbrev" : "VA",
         "capital" : "Richmond", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "9 num's\n1 char's, 8 num's", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "12 num's\n1 char's, 8 num's", 
+        "sampleLicense" : "123321456654"
     }, 
     {
         "name" : "Washington",
         "abbrev" : "WA",
         "capital" : "Olympia", 
-        "addresses" : [], 
-        "driversLicenseDescription" : "5 char's, 1 char's, 1 char's, 3 num's, 2 chars", 
-        "sampleLicense" : ""
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
+        "driversLicenseDescription" : "7 char's, 3 num's, 2 chars", 
+        "sampleLicense" : "ABCDEFG123AA"
     }, 
     {
         "name" : "West Virginia",
         "abbrev" : "WV",
         "capital" : "Charleston", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 6 num's\n2 char's, 5 num's\nthe number \"1\", the letter \"X\", 5 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A156321"
     }, 
     {
         "name" : "Wisconsin",
         "abbrev" : "WI",
         "capital" : "Madison", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "1 char's, 13 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "A1233213213211"
     }, 
     {
         "name" : "Wyoming",
         "abbrev" : "WY",
         "capital" : "Cheyenne", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city" : "", 
+                "state" : "",
+                "zip" : ""
+            },
+            {
+                "street" : "",
+                "city": "",
+                "state" : "",
+                "zip" : ""
+            }            
+        ], 
         "driversLicenseDescription" : "9-10 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "156654789"
     }
 ]
