@@ -1,6 +1,8 @@
-# state-cheatsheet
+# us-state-ref
 ## Intro
-Small compilation of info related to U.S. states, e.g. sample addresses, driver's license formats, etc. Useful as a quick reference or for hitting the endpoints in your testing scripts/other personal work.
+Quick reference of info related to U.S. states, e.g. sample addresses, driver's license formats, etc. 
+
+Includes simple web page for viewing data, exposes endpoints for your testing scripts/other personal work.
 
 ## Pre-req's
 Node 4.6.0, npm

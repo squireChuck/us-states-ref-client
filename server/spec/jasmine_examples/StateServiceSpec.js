@@ -148,29 +148,29 @@ describe("Each state", function() {
             expect(state.capital).toBeTruthy();
         });
 
-        // it("has multiple sample addresses - " + state.name, function() {
-        //     expect(state.addresses).toBeTruthy();
-        //     expect(state.addresses.length).toBeGreaterThan(1);
+        it("has multiple sample addresses - " + state.name, function() {
+            expect(state.addresses).toBeTruthy();
+            expect(state.addresses.length).toBeGreaterThan(1);
             
-        //     state.addresses.forEach(
-        //         function(address) {
-        //             expect(address).toBeTruthy();            
-        //         }
-        //     );
-        // });
+            state.addresses.forEach(
+                function(address) {
+                    expect(address).toBeTruthy();            
+                }
+            );
+        });
 
-        // describe("and each of its addresses - " + state.name, function() {
-        //     var addresses = state.addresses;
+        describe("and each of its addresses - " + state.name, function() {
+            var addresses = state.addresses;
 
-        //     it("has a street, city, state, and zip - " + state.name, function() {
-        //         addresses.forEach(function(address) {
-        //             expect(address.street).toBeTruthy();
-        //             expect(address.city).toBeTruthy();
-        //             expect(address.state).toBeTruthy();
-        //             expect(address.zip).toBeTruthy();
-        //         });   
-        //     });
-        // });
+            it("has a street, city, state, and zip - " + state.name, function() {
+                addresses.forEach(function(address) {
+                    expect(address.street).toBeTruthy();
+                    expect(address.city).toBeTruthy();
+                    expect(address.state).toBeTruthy();
+                    expect(address.zip).toBeTruthy();
+                });   
+            });
+        });
 
         it("has a drivers license description - " + state.name, function() {
             expect(state.driversLicenseDescription).toBeTruthy();
