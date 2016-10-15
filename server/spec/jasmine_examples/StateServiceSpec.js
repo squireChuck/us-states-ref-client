@@ -37,6 +37,19 @@ describe("StateService", function() {
             });
         }
     );
+
+    it("returns a state by name, case-insensitive", function() {
+        expect(stateService.getStateByName('Alaska')).toBeTruthy();
+        expect(stateService.getStateByName('alaska')).toBeTruthy();
+        expect(stateService.getStateByName('aLaSka')).toBeTruthy();
+    });
+
+    it("returns a state by abbrev, case-insensitive", function() {
+        expect(stateService.getStateByAbbrev('AK')).toBeTruthy();
+        expect(stateService.getStateByAbbrev('Ak')).toBeTruthy();
+        expect(stateService.getStateByAbbrev('aK')).toBeTruthy();
+        expect(stateService.getStateByAbbrev('ak')).toBeTruthy();
+    });
 });
 
 describe("A state", function() {

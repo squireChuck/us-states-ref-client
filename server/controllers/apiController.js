@@ -7,15 +7,18 @@
     GET /states/(name|abbrev)/(:name|:abbrev)/addresses => all addresses
     GET /states/(name|abbrev)/(:name|:abbrev)/addresses/:index => single address
 */
+var StateService = require('../services/StateService');
+var stateService = new StateService();
+
 module.exports = function(app) {
 
     // GET endpoint
-    app.get('/app/api/v1/', function(req, res) { 
+    app.get('/app/api/v1/states', function(req, res) { 
         // This log shows up in the console running node (since this is server side code).
-        console.log("In the GET /app/api/v1 endpoint");
+        console.log("In the GET /app/api/v1/states endpoint");
 
         // Return json in the response.
-        res.send(statesList[0]);
+        res.send(stateService.getAllStates());
     });
 
     // Second GET endpoint
