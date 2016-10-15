@@ -1,7 +1,7 @@
 {
   "name": "state-cheatsheet",
   "version": "1.0.0",
-  "description": "small compilation of info related to U.s. states, e.g. sample addresses, driver's license formats, etc.",
+  "description": "small compilation of info related to U.S. states, e.g. sample addresses, driver's license formats, etc.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
