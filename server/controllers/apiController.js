@@ -7,11 +7,6 @@
     GET /states/(name|abbrev)/(:name|:abbrev)/addresses => all addresses
     GET /states/(name|abbrev)/(:name|:abbrev)/addresses/:index => single address
 */
-// require is synchronous, but acceptable as long as there's a 
-// low expectation of the states data changing.
-console.log('Getting state info on server start up...');
-var statesList = require('../data/states');
-
 module.exports = function(app) {
 
     // GET endpoint

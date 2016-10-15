@@ -11,9 +11,28 @@
         "name" : "Alaska",
         "abbrev" : "AK",
         "capital" : "Juneau", 
-        "addresses" : [], 
+        "addresses" : [
+            {
+                "street" : "2285 Trout St",
+                "city" : "Juneau", 
+                "state" : "AK",
+                "zip" : "99801"
+            },
+            {
+                "street" : "8777 Glacier Hwy",
+                "city" : "Juneau", 
+                "state" : "AK",
+                "zip" : "99801"
+            },
+            {
+                "street" : "77 College Rd",
+                "city": "Fairbanks",
+                "state" : "AK",
+                "zip" : "99701"
+            }
+        ], 
         "driversLicenseDescription" : "1-7 num's", 
-        "sampleLicense" : ""
+        "sampleLicense" : "1563255"
     }, 
     {
         "name" : "Arizona",
@@ -264,7 +283,7 @@
         "sampleLicense" : ""
     }, 
     {
-        "name" : " North Dakota",
+        "name" : "North Dakota",
         "abbrev" : "ND",
         "capital" : "Bismarck", 
         "addresses" : [], 

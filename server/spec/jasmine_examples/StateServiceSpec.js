@@ -1,0 +1,144 @@
+describe("StateService", function() {
+    var StateService = require('../../services/StateService');
+    var stateService = new StateService();
+    var stateAbbrevs = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", 
+                        "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", 
+                        "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", 
+                        "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", 
+                        "VT", "VA", "WA", "WV", "WI", "WY"];
+
+    var stateNames = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
+                    "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", 
+                    "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
+                    "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", 
+                    "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", 
+                    "New Hampshire", "New Jersey", "New Mexico", "New York", 
+                    "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", 
+                    "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", 
+                    "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", 
+                    "West Virginia", "Wisconsin", "Wyoming"];
+ 
+    it("returns 50 states", function() {
+        expect(stateService.getAllStates().length).toBe(50);
+    });
+
+    stateAbbrevs.forEach(
+        function(abbrev) {
+            it("returns each state by abbrev - " + abbrev, function() {
+                expect(stateService.getStateByAbbrev(abbrev)).toBeTruthy();
+            });
+        }
+    );
+
+    stateNames.forEach(
+        function(name) {
+            it("returns each state by name - " + name, function() {
+                expect(stateService.getStateByName(name)).toBeTruthy();
+            });
+        }
+    );
+});
+
+describe("A state", function() {
+    var StateService = require('../../services/StateService');
+    var stateService = new StateService();
+    var state = stateService.getStateByName('Alaska');
+
+    it("has a name", function() {
+        expect(state.name).toBeTruthy();
+    });
+
+    it("has an abbrev", function() {
+        expect(state.abbrev).toBeTruthy();
+    });
+
+    it("has a capital", function() {
+        expect(state.capital).toBeTruthy();
+    });
+
+    it("has multiple sample addresses", function() {
+        expect(state.addresses).toBeTruthy();
+        expect(state.addresses.length).toBeGreaterThan(0);
+        
+        state.addresses.forEach(
+            function(address) {
+                expect(address).toBeTruthy();            
+            }
+        );
+    });
+
+    describe("and each of its addresses", function() {
+        var addresses = state.addresses;
+
+        it("has a street, city, state, and zip", function() {
+            addresses.forEach(function(address) {
+                expect(address.street).toBeTruthy();
+                expect(address.city).toBeTruthy();
+                expect(address.state).toBeTruthy();
+                expect(address.zip).toBeTruthy();
+            });   
+        });
+    });
+
+    it("has a drivers license description", function() {
+        expect(state.driversLicenseDescription).toBeTruthy();
+    });
+
+    it("has a sample drivers license", function() {
+        expect(state.sampleLicense).toBeTruthy();
+    });
+});
+
+describe("Each state", function() {
+    var StateService = require('../../services/StateService');
+    var stateService = new StateService();
+    var statesList = stateService.getAllStates();
+
+    statesList.forEach(function(state) { 
+        var name = state.name;
+
+        it("has a name - " + state.name, function() {
+            expect(state.name).toBeTruthy();
+        });
+
+        it("has an abbrev - " + state.name, function() {
+            expect(state.abbrev).toBeTruthy();
+        });
+
+        it("has a capital - " + state.name, function() {
+            expect(state.capital).toBeTruthy();
+        });
+
+        it("has multiple sample addresses - " + state.name, function() {
+            expect(state.addresses).toBeTruthy();
+            expect(state.addresses.length).toBeGreaterThan(1);
+            
+            state.addresses.forEach(
+                function(address) {
+                    expect(address).toBeTruthy();            
+                }
+            );
+        });
+
+        describe("and each of its addresses - " + state.name, function() {
+            var addresses = state.addresses;
+
+            it("has a street, city, state, and zip - " + state.name, function() {
+                addresses.forEach(function(address) {
+                    expect(address.street).toBeTruthy();
+                    expect(address.city).toBeTruthy();
+                    expect(address.state).toBeTruthy();
+                    expect(address.zip).toBeTruthy();
+                });   
+            });
+        });
+
+        it("has a drivers license description - " + state.name, function() {
+            expect(state.driversLicenseDescription).toBeTruthy();
+        });
+
+        it("has a sample drivers license - " + state.name, function() {
+            expect(state.sampleLicense).toBeTruthy();
+        });
+    });    
+});
