@@ -25,5 +25,7 @@ Node 4.6.0, npm
 
 3. Put all sample addresses into a single cell.
 
+4. Some extra endpoint for finer grained data - see apiController for ideas.
+
 ## Last thoughts
 Drivers license format source - the Internet... your mileage may vary.
