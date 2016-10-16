@@ -180,6 +180,6 @@ var FilterableStateTables = React.createClass({
 });
 
 ReactDOM.render(
-  <FilterableStateTables url="/app/api/v1/states" />,
+  <FilterableStateTables url="/usstates/api/v1/states" />,
   document.getElementById('container')
 );

@@ -30,7 +30,7 @@ app.use(function(req, res, next) {
 apiController(app);
 
 // Similar to apiController - GET request to localhost:3000/app will serve the index.html 
-app.get('/app', function(req,res){
+app.get('/usstates', function(req,res){
  res.sendFile(clientRootPath + '/index.html');
 });
 

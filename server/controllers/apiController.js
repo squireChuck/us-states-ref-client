@@ -10,22 +10,22 @@ var stateService = new StateService();
 module.exports = function(app) {
 
     // GET /states
-    app.get('/app/api/v1/states', function(req, res) { 
-        console.log("In the GET /app/api/v1/states endpoint");
+    app.get('/usstates/api/v1/states', function(req, res) { 
+        console.log("In the GET /usstates/api/v1/states endpoint");
 
         res.send(stateService.getAllStates());
     });
 
     // GET /states/name 
-    app.get('/app/api/v1/states/name/:name', function(req, res) { 
-        console.log("In the GET /app/api/v1/states/name endpoint");
+    app.get('/usstates/api/v1/states/name/:name', function(req, res) { 
+        console.log("In the GET /usstates/api/v1/states/name endpoint");
 
         res.send(stateService.getStateByName(req.params.name));
     });
 
     // GET /states/abbrev 
-    app.get('/app/api/v1/states/abbrev/:abbrev', function(req, res) { 
-        console.log("In the GET /app/api/v1/states/abbrev endpoint");
+    app.get('/usstates/api/v1/states/abbrev/:abbrev', function(req, res) { 
+        console.log("In the GET /usstates/api/v1/states/abbrev endpoint");
 
         res.send(stateService.getStateByAbbrev(req.params.abbrev));
     });

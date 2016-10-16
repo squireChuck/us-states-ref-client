@@ -10,11 +10,13 @@ Node 4.6.0, npm
 ## Setup
 1. Copy or clone project to computer.
 
-2. Install the dependencies listed in package.json, e.g. in the command prompt, nav to state-cheatsheet/server and `npm install`
+2. Install the dependencies listed in package.json, e.g. in the command prompt, nav to us-states-ref/server and `npm install`
 
 4. After that's done, stay in the same folder and run `node app.js`
 
-5. Go to http://localhost:3000/app to view the quickie index.html I whipped up. If it loads, you're all set!
+5. Go to http://localhost:3000/usstates for a filterable view of the states data. If it loads, you're all set!
+
+6. See the apiController for exposed endpoints.
 
 ## Code of interest
 
