@@ -1,4 +1,4 @@
-# us-state-ref
+# us-states-ref
 ## Intro
 Quick reference of info related to U.S. states, e.g. sample addresses, driver's license formats, etc. 
 
@@ -17,6 +17,13 @@ Node 4.6.0, npm
 5. Go to http://localhost:3000/app to view the quickie index.html I whipped up. If it loads, you're all set!
 
 ## Code of interest
+
+## Wishlist
+1. Sample addresses for all states, which will pass the remaining failing jasmine specs.
+
+2. Simple (React?) page displaying info for all the states, basic filtering options for states.
+
+3. Changes driver's license format field to list of formats (currently one field with line breaks between different entries).  
 
 ## Last thoughts
 Drivers license format source - the Internet... your mileage may vary.

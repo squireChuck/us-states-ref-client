@@ -1,7 +1,7 @@
 {
   "name": "us-state-ref",
   "version": "1.0.0",
-  "description": "Quick reference of info related to U.S. states, e.g. sample addresses, driver's license formats, etc.",
+  "description": "Quick reference info related to U.S. states, e.g. sample addresses, driver's license formats, etc.",
   "main": "app.js",
   "scripts": {
     "test": "jasmine"
