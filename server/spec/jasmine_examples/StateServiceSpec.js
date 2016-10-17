@@ -148,7 +148,7 @@ describe("Each state", function() {
             expect(state.capital).toBeTruthy();
         });
 
-        it("has multiple sample addresses - " + state.name, function() {
+        xit("has multiple sample addresses - " + state.name, function() {
             expect(state.addresses).toBeTruthy();
             expect(state.addresses.length).toBeGreaterThan(1);
             
@@ -157,9 +157,9 @@ describe("Each state", function() {
                     expect(address).toBeTruthy();            
                 }
             );
-        });
+        }).pend("Work in progress - currently gathering address info...");
 
-        describe("and each of its addresses - " + state.name, function() {
+        xdescribe("and each of its addresses - " + state.name, function() {
             var addresses = state.addresses;
 
             it("has a street, city, state, and zip - " + state.name, function() {
@@ -169,8 +169,8 @@ describe("Each state", function() {
                     expect(address.state).toBeTruthy();
                     expect(address.zip).toBeTruthy();
                 });   
-            });
-        });
+            }).pend("Work in progress - currently gathering address info...");
+        }).pend("Work in progress - currently gathering address info...");
 
         it("has a drivers license description - " + state.name, function() {
             expect(state.driversLicenseDescription).toBeTruthy();
