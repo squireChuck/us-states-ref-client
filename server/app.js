@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 });
 
 // Puts the endpoints onto the Express app.
-apiController(app);
+app.use('/usstates', apiController)
 
 // Similar to apiController - GET request to localhost:3000/app will serve the index.html 
 app.get('/usstates', function(req,res){
