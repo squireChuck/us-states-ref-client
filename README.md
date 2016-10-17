@@ -27,7 +27,12 @@ Node 4.6.0, npm
 
 3. Put all sample addresses into a single cell.
 
-4. Some extra endpoint for finer grained data - see apiController for ideas.
+4. Some extra endpoints for finer grained data - see apiController for ideas.
+
+5. Break out stateController/service/data into npm package, so that it's importable in node. Maybe provide option to set the root path?
+  * Maybe there's a more Express-like way to package/import these controllers... 
+
+6. Get random sample addresses from an external source?
 
 ## Last thoughts
 Drivers license format source - the Internet... your mileage may vary.
