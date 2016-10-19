@@ -5,25 +5,25 @@
         "capital" : "Montgomery", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "7210 Wyndham Pkwy",
+                "city" : "Helena", 
+                "state" : "AL",
+                "zip" : "35080"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "4804 Co Rd 52",
+                "city" : "Helena", 
+                "state" : "AL",
+                "zip" : "35080"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "2991 Co Rd 95,",
+                "city": "Helena",
+                "state" : "AL",
+                "zip" : "35080"
             }            
         ], 
-        "driversLicenseDescription" : "7 num's", 
+        "driversLicenseDescription" : ["7 num's"], 
         "sampleLicense" : "1563214"
     }, 
     {
@@ -50,7 +50,7 @@
                 "zip" : "99701"
             }
         ], 
-        "driversLicenseDescription" : "1-7 num's", 
+        "driversLicenseDescription" : ["1-7 num's"], 
         "sampleLicense" : "1563255"
     }, 
     {
@@ -59,25 +59,26 @@
         "capital" : "Phoenix", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "701 W McDowell Rd",
+                "city" : "Phoenix", 
+                "state" : "AZ",
+                "zip" : "85007"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "2508 N Central Ave",
+                "city" : "Phoenix", 
+                "state" : "AZ",
+                "zip" : "85007"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "105 S Milton Rd",
+                "city": "Flagstaff",
+                "state" : "AZ",
+                "zip" : "86001"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 5-6 num's\n2 char's, 5 num's\n9 num's\n1 char's, 8 num's", 
+        "driversLicenseDescription" : ["1 char's, 5-6 num's", 
+            "2 char's, 5 num's", "9 num's", "1 char's, 8 num's"], 
         "sampleLicense" : "156654489"
     }, 
     {
@@ -86,25 +87,25 @@
         "capital" : "Little Rock", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "104 S University Ave",
+                "city" : "Little Rock", 
+                "state" : "AR",
+                "zip" : "72205"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "205 E Oak St",
+                "city" : "Conway", 
+                "state" : "AR",
+                "zip" : "72032"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "2211 N Reynolds Rd",
+                "city": "Bryant",
+                "state" : "AR",
+                "zip" : "72022"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's", 
+        "driversLicenseDescription" : ["9 num's"], 
         "sampleLicense" : "111321156"
     }, 
     {
@@ -113,25 +114,25 @@
         "capital" : "Sacramento", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "362 California St",
+                "city" : "Woodland", 
+                "state" : "CA",
+                "zip" : "95695"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "835 N Reed Ave",
+                "city" : "Reedley", 
+                "state" : "CA",
+                "zip" : "93654"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "5200 Coast Hwy",
+                "city": "Pacifica",
+                "state" : "CA",
+                "zip" : "94044"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 7 num's", 
+        "driversLicenseDescription" : ["1 char's, 7 num's"], 
         "sampleLicense" : "A3544567"
     }, 
     {
@@ -140,25 +141,25 @@
         "capital" : "Denver", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "207 N Wahsatch Ave",
+                "city" : "Colorado Springs", 
+                "state" : "CO",
+                "zip" : "80903"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "200 16th St",
+                "city" : "Denver", 
+                "state" : "CO",
+                "zip" : "80202"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "2700 W Belleview Ave",
+                "city": "Littleton",
+                "state" : "CO",
+                "zip" : "80123"
             }            
         ], 
-        "driversLicenseDescription" : "2 char's, 6 num's\n9 num's", 
+        "driversLicenseDescription" : ["2 char's, 6 num's", "9 num's"], 
         "sampleLicense" : "AB123654"
     }, 
     {
@@ -167,25 +168,25 @@
         "capital" : "Hartford", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "172 Washington St",
+                "city" : "Hartford", 
+                "state" : "CT",
+                "zip" : "06106"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "635 Hartford Rd",
+                "city" : "New Britain", 
+                "state" : "CT",
+                "zip" : "06053"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "611 S Main St",
+                "city": "Middletown",
+                "state" : "CT",
+                "zip" : "06457"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's", 
+        "driversLicenseDescription" : ["9 num's"], 
         "sampleLicense" : "156156321"
     }, 
     {
@@ -194,25 +195,25 @@
         "capital" : "Dover", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "879 N Dupont Hwy",
+                "city" : "Dover", 
+                "state" : "DE",
+                "zip" : "19901"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1704 E Lebanon Rd",
+                "city" : "Dover", 
+                "state" : "DE",
+                "zip" : "19901"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "20817 Dupont Blvd",
+                "city": "Georgetown",
+                "state" : "DE",
+                "zip" : "19947"
             }            
         ], 
-        "driversLicenseDescription" : "4-7 num's", 
+        "driversLicenseDescription" : ["4-7 num's"], 
         "sampleLicense" : "1156657"
     }, 
     {
@@ -221,25 +222,25 @@
         "capital" : "Tallahassee", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "2800 S Monroe St",
+                "city" : "Tallahassee", 
+                "state" : "FL",
+                "zip" : "32301"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "6875 Sand Lake Rd",
+                "city" : "Orlando", 
+                "state" : "FL",
+                "zip" : "32819"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "1028 Lee Rd",
+                "city": "Orlando",
+                "state" : "FL",
+                "zip" : "32810"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 11-12 num's", 
+        "driversLicenseDescription" : ["1 char's, 11-12 num's"], 
         "sampleLicense" : "A15665448977"
     }, 
     {
@@ -248,25 +249,25 @@
         "capital" : "Atlanta", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1203 Virginia Ave",
+                "city" : "Atlanta", 
+                "state" : "GA",
+                "zip" : "30344"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "3670 Cascade Rd",
+                "city" : "Atlanta", 
+                "state" : "GA",
+                "zip" : "30331"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "2717 Hwy 54 W",
+                "city": "Peachtree City",
+                "state" : "GA",
+                "zip" : "30269"
             }            
         ], 
-        "driversLicenseDescription" : "6-9 num's", 
+        "driversLicenseDescription" : ["6-9 num's"], 
         "sampleLicense" : "45335478"
     }, 
     {
@@ -275,25 +276,25 @@
         "capital" : "Honolulu", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "4561 Salt Lake Blvd",
+                "city" : "Honolulu", 
+                "state" : "HI",
+                "zip" : "96818"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "114 S Kamehameha Hwy",
+                "city" : "Wahiawa", 
+                "state" : "HI",
+                "zip" : "96786"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "30 S Kamehameha Hwy",
+                "city": "Wahiawa",
+                "state" : "HI",
+                "zip" : "96786"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\nLetter \"H\" and 8 num's", 
+        "driversLicenseDescription" : ["9 num's", "Letter \"H\" and 8 num's"], 
         "sampleLicense" : "123320321"
     }, 
     {
@@ -302,25 +303,25 @@
         "capital" : "Boise", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1185 S Vista Ave",
+                "city" : "Boise", 
+                "state" : "ID",
+                "zip" : "83705"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1653 S Vista Ave",
+                "city" : "Boise", 
+                "state" : "ID",
+                "zip" : "83705"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "1012 Cleveland Blvd",
+                "city": "Caldwell",
+                "state" : "ID",
+                "zip" : "83605"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n2 char's, 6 num's, 1 char's", 
+        "driversLicenseDescription" : ["9 num's", "2 char's, 6 num's, 1 char's"], 
         "sampleLicense" : "456987789"
     }, 
     {
@@ -329,25 +330,25 @@
         "capital" : "Springfield", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1664 S Blue Island Ave",
+                "city" : "Chicago", 
+                "state" : "IL",
+                "zip" : "60608"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "4830 Dempster St",
+                "city" : "Skokie", 
+                "state" : "IL",
+                "zip" : "60077"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "6913 N Milwaukee Ave",
+                "city": "Niles",
+                "state" : "IL",
+                "zip" : "60714"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 11 num's", 
+        "driversLicenseDescription" : ["1 char's, 11 num's"], 
         "sampleLicense" : "C45665478933"
     }, 
     {
@@ -356,25 +357,25 @@
         "capital" : "Indianapolis", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "4044 E Southport Rd",
+                "city" : "Indianapolis", 
+                "state" : "IN",
+                "zip" : "46237"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "706 W Trafalgar Point Way",
+                "city" : "Trafalgar", 
+                "state" : "IN",
+                "zip" : "46181"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "805 E JEFFERSON ST",
+                "city": "TIPTON",
+                "state" : "IN",
+                "zip" : "46072"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 9 num's\n10 num's", 
+        "driversLicenseDescription" : ["1 char's, 9 num's", "10 num's"], 
         "sampleLicense" : "A123320123"
     }, 
     {
@@ -383,25 +384,25 @@
         "capital" : "Des Moines", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "726 1ST AVENUE E.",
+                "city" : "NEWTON", 
+                "state" : "IA",
+                "zip" : "50208"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "3402 S CENTER ST",
+                "city" : "MARSHALLTOWN", 
+                "state" : "IA",
+                "zip" : "50158"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "1403 WALNUT ST",
+                "city": "COLFAX",
+                "state" : "IA",
+                "zip" : "50054"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n7 char's, 2 num's", 
+        "driversLicenseDescription" : ["9 num's", "7 char's, 2 num's"], 
         "sampleLicense" : "456987456"
     }, 
     {
@@ -410,25 +411,25 @@
         "capital" : "Topeka", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "634 S Kansas Ave",
+                "city" : "Topeka", 
+                "state" : "KS",
+                "zip" : "66603"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "701 Walnut St",
+                "city" : "Oskaloosa", 
+                "state" : "KS",
+                "zip" : "66066"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "101 North St",
+                "city": "Seneca",
+                "state" : "KS",
+                "zip" : "66538"
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\nLetter \"K\", 8 num's", 
+        "driversLicenseDescription" : ["9 num's", "Letter \"K\", 8 num's"], 
         "sampleLicense" : "123321123"
     }, 
     {
@@ -437,25 +438,25 @@
         "capital" : "Frankfort", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "455 Southland Dr D",
+                "city" : "Lexington", 
+                "state" : "KY",
+                "zip" : "40503"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "7201 Alexandria Pike",
+                "city" : "Alexandria", 
+                "state" : "KY",
+                "zip" : "41001"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "1974 KY-192",
+                "city": "London",
+                "state" : "KY",
+                "zip" : "40741"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 8 num's\n9-10 num's", 
+        "driversLicenseDescription" : ["1 char's, 8 num's", "9-10 num's"], 
         "sampleLicense" : "A12365445"
     }, 
     {
@@ -464,25 +465,25 @@
         "capital" : "Baton Rouge", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "501 Veterans Memorial Dr",
+                "city" : "Abbeville", 
+                "state" : "LA",
+                "zip" : "70510"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "701 Poydras Street",
+                "city" : "New Orleans", 
+                "state" : "LA",
+                "zip" : "70139"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "3205 Louisiana Ave",
+                "city": "Lafayette",
+                "state" : "LA",
+                "zip" : "70501"
             }            
         ], 
-        "driversLicenseDescription" : "\"00\" + 7 num's", 
+        "driversLicenseDescription" : ["\"00\" + 7 num's"], 
         "sampleLicense" : "001563217"
     }, 
     {
@@ -491,25 +492,25 @@
         "capital" : "Augusta", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "465 Kennedy Memorial Dr",
+                "city" : "Waterville", 
+                "state" : "ME",
+                "zip" : "04901"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "670 Center St",
+                "city" : "Auburn", 
+                "state" : "ME",
+                "zip" : "04210"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "189 Main St",
+                "city": "Saco",
+                "state" : "ME",
+                "zip" : "04072"
             }            
         ], 
-        "driversLicenseDescription" : "7 num's", 
+        "driversLicenseDescription" : ["7 num's"], 
         "sampleLicense" : "1234567"
     }, 
     {
@@ -518,25 +519,25 @@
         "capital" : "Annapolis", 
         "addresses" : [
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "1323 Policy Dr",
+                "city" : "Belcamp", 
+                "state" : "MD",
+                "zip" : "21017"
             },
             {
-                "street" : "",
-                "city" : "", 
-                "state" : "",
-                "zip" : ""
+                "street" : "2351 Frederick Ave",
+                "city" : "Baltimore", 
+                "state" : "MD",
+                "zip" : "21223"
             },
             {
-                "street" : "",
-                "city": "",
-                "state" : "",
-                "zip" : ""
+                "street" : "3365 Crain Hwy",
+                "city": "Waldorf",
+                "state" : "MD",
+                "zip" : "20603"
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "driversLicenseDescription" : ["1 char's, 12 num's"], 
         "sampleLicense" : "A123654789654"
     }, 
     {
@@ -547,23 +548,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MA",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 8 num's\n9 num's", 
+        "driversLicenseDescription" : ["1 char's, 8 num's", "9 num's"], 
         "sampleLicense" : "A32165465"
     }, 
     {
@@ -574,23 +575,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MI",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "driversLicenseDescription" : ["1 char's, 12 num's"], 
         "sampleLicense" : "A123654456321"
     }, 
     {
@@ -601,23 +602,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MN",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MN",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MN",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 12 num's", 
+        "driversLicenseDescription" : ["1 char's, 12 num's"], 
         "sampleLicense" : "B321123654456"
     }, 
     {
@@ -628,23 +629,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MS",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MS",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MS",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's", 
+        "driversLicenseDescription" : ["9 num's"], 
         "sampleLicense" : "156651651"
     }, 
     {
@@ -655,23 +656,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MO",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MO",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MO",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n1 char's, 6-7 num's", 
+        "driversLicenseDescription" : ["9 num's", "1 char's, 6-7 num's"], 
         "sampleLicense" : "156321456"
     }, 
     {
@@ -682,23 +683,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "MT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "MT",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n13 num's\n1 char's, 1 num's, 1 char's, 2 num's, 3 char's, and 1 num's", 
+        "driversLicenseDescription" : ["9 num's", "13 num's", "1 char's, 1 num's, 1 char's, 2 num's, 3 char's, and 1 num's"], 
         "sampleLicense" : "123321123"
     }, 
     {
@@ -709,23 +710,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NE",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NE",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NE",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 6-8 num's", 
+        "driversLicenseDescription" : ["1 char's, 6-8 num's"], 
         "sampleLicense" : "B456321"
     }, 
     {
@@ -736,23 +737,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NV",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NV",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NV",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n10 num's", 
+        "driversLicenseDescription" : ["9 num's", "10 num's"], 
         "sampleLicense" : "123321123"
     }, 
     {
@@ -763,23 +764,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NH",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NH",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NH",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "2 num's, 3 char's, 5 num's", 
+        "driversLicenseDescription" : ["2 num's, 3 char's, 5 num's"], 
         "sampleLicense" : "12ABC32145"
     }, 
     {
@@ -790,23 +791,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NJ",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NJ",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NJ",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 14 num's", 
+        "driversLicenseDescription" : ["1 char's, 14 num's"], 
         "sampleLicense" : "C32145698745655"
     }, 
     {
@@ -817,23 +818,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NM",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NM",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NM",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "8 num's\n9 num's", 
+        "driversLicenseDescription" : ["8 num's", "9 num's"], 
         "sampleLicense" : "15665445"
     }, 
     {
@@ -844,23 +845,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NY",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NY",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NY",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's", 
+        "driversLicenseDescription" : ["9 num's"], 
         "sampleLicense" : "156321456"
     }, 
     {
@@ -871,23 +872,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NC",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "NC",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "NC",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "12 num's", 
+        "driversLicenseDescription" : ["12 num's"], 
         "sampleLicense" : "123321456654"
     }, 
     {
@@ -898,23 +899,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "ND",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "ND",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "ND",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n3 char's, 6 num's", 
+        "driversLicenseDescription" : ["9 num's", "3 char's, 6 num's"], 
         "sampleLicense" : "156321456"
     }, 
     {
@@ -925,23 +926,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OH",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OH",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "OH",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's\n2 char's, 6 num's", 
+        "driversLicenseDescription" : ["9 num's", "2 char's, 6 num's"], 
         "sampleLicense" : "156321456"
     }, 
     {
@@ -952,23 +953,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OK",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OK",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "OK",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9 num's", 
+        "driversLicenseDescription" : ["9 num's"], 
         "sampleLicense" : "156651651"
     }, 
     {
@@ -979,23 +980,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OR",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "OR",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "OR",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "6-7 num's", 
+        "driversLicenseDescription" : ["6-7 num's"], 
         "sampleLicense" : "1233214"
     }, 
     {
@@ -1006,23 +1007,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "PA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "PA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "PA",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "8 num's", 
+        "driversLicenseDescription" : ["8 num's"], 
         "sampleLicense" : "15665478"
     }, 
     {
@@ -1033,23 +1034,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "RI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "RI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "RI",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "7 num's", 
+        "driversLicenseDescription" : ["7 num's"], 
         "sampleLicense" : "1233214"
     }, 
     {
@@ -1060,23 +1061,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "SC",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "SC",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "SC",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "7 num's\n9 num's with 2 zeros in front", 
+        "driversLicenseDescription" : ["7 num's", "9 num's with 2 zeros in front"], 
         "sampleLicense" : "1566544"
     }, 
     {
@@ -1087,23 +1088,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "SD",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "SD",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "SD",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "7 num's\n8 num's\n9 num's\n11 num's", 
+        "driversLicenseDescription" : ["7 num's", "8 num's", "9 num's", "11 num's"], 
         "sampleLicense" : "1566544"
     }, 
     {
@@ -1114,23 +1115,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "TN",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "TN",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "TN",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "7-9 num's", 
+        "driversLicenseDescription" : ["7-9 num's"], 
         "sampleLicense" : "123654456"
     }, 
     {
@@ -1141,23 +1142,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "TX",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "TX",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "TX",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "8 num's beginning with 0, 1, or 2", 
+        "driversLicenseDescription" : ["8 num's beginning with 0, 1, or 2"], 
         "sampleLicense" : "01232144"
     }, 
     {
@@ -1168,23 +1169,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "UT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "UT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "UT",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "6-9 num's", 
+        "driversLicenseDescription" : ["6-9 num's"], 
         "sampleLicense" : "123321456"
     }, 
     {
@@ -1195,23 +1196,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "VT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "VT",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "VT",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "8 num's\n7 num's, 1 char's", 
+        "driversLicenseDescription" : ["8 num's", "7 num's, 1 char's"], 
         "sampleLicense" : "15615665"
     }, 
     {
@@ -1222,23 +1223,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "VA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "VA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "VA",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "12 num's\n1 char's, 8 num's", 
+        "driversLicenseDescription" : ["12 num's", "1 char's, 8 num's"], 
         "sampleLicense" : "123321456654"
     }, 
     {
@@ -1249,23 +1250,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WA",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "WA",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "7 char's, 3 num's, 2 chars", 
+        "driversLicenseDescription" : ["7 char's, 3 num's, 2 chars"], 
         "sampleLicense" : "ABCDEFG123AA"
     }, 
     {
@@ -1276,23 +1277,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WV",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WV",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "WV",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 6 num's\n2 char's, 5 num's\nthe number \"1\", the letter \"X\", 5 num's", 
+        "driversLicenseDescription" : ["1 char's, 6 num's", "2 char's, 5 num's", "the number \"1\", the letter \"X\", 5 num's"], 
         "sampleLicense" : "A156321"
     }, 
     {
@@ -1303,23 +1304,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WI",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "WI",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "1 char's, 13 num's", 
+        "driversLicenseDescription" : ["1 char's, 13 num's"], 
         "sampleLicense" : "A1233213213211"
     }, 
     {
@@ -1330,23 +1331,23 @@
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WY",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city" : "", 
-                "state" : "",
+                "state" : "WY",
                 "zip" : ""
             },
             {
                 "street" : "",
                 "city": "",
-                "state" : "",
+                "state" : "WY",
                 "zip" : ""
             }            
         ], 
-        "driversLicenseDescription" : "9-10 num's", 
+        "driversLicenseDescription" : ["9-10 num's"], 
         "sampleLicense" : "156654789"
     }
 ]

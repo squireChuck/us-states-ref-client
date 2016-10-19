@@ -121,6 +121,8 @@ describe("A state", function() {
 
     it("has a drivers license description", function() {
         expect(state.driversLicenseDescription).toBeTruthy();
+        expect(state.driversLicenseDescription instanceof Array).toBe(true);
+        expect(state.driversLicenseDescription.length).toBeGreaterThan(0);
     });
 
     it("has a sample drivers license", function() {
@@ -174,6 +176,8 @@ describe("Each state", function() {
 
         it("has a drivers license description - " + state.name, function() {
             expect(state.driversLicenseDescription).toBeTruthy();
+            expect(state.driversLicenseDescription instanceof Array).toBe(true);
+            expect(state.driversLicenseDescription.length).toBeGreaterThan(0);
         });
 
         it("has a sample drivers license - " + state.name, function() {

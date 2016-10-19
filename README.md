@@ -29,9 +29,9 @@ Node 4.6.0, npm
 
 4. Jasmine helper to consolidate test suite.
 
-5. Some extra endpoints for finer grained data - see apiController for ideas.
+5. Break out stateController/service/data into npm package, so that it's importable in node.
 
-6. Break out stateController/service/data into npm package, so that it's importable in node. 
+6. Some extra endpoints for finer grained data - see apiController for ideas. 
 
 7. Get random sample addresses from an external source?
 
