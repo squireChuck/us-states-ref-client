@@ -10,7 +10,7 @@ Node 4.6.0, npm
 ## Setup
 1. Copy or clone project to computer.
 
-2. Install the dependencies listed in package.json, e.g. in the command prompt, nav to us-states-ref/server and `npm install`
+2. Install the Node dependencies listed in package.json, e.g. in the command prompt, nav to us-states-ref/server and `npm install`
 
 4. After that's done, stay in the same folder and run `node app.js`
 

@@ -81,63 +81,10 @@ describe("StateService returns each state", function() {
 describe("A state", function() {
     var StateService = require('../../services/StateService');
     var stateService = new StateService();
-    var state = stateService.getStateByName('Alaska');
-
-    it("has a name", function() {
-        expect(state.name).toBeTruthy();
-    });
-
-    it("has an abbrev", function() {
-        expect(state.abbrev).toBeTruthy();
-    });
-
-    it("has a capital", function() {
-        expect(state.capital).toBeTruthy();
-    });
-
-    it("has multiple sample addresses", function() {
-        expect(state.addresses).toBeTruthy();
-        expect(state.addresses.length).toBeGreaterThan(0);
-        
-        state.addresses.forEach(
-            function(address) {
-                expect(address).toBeTruthy();            
-            }
-        );
-    });
-
-    describe("and each of its addresses", function() {
-        var addresses = state.addresses;
-
-        it("has a street, city, state, and zip", function() {
-            addresses.forEach(function(address) {
-                expect(address.street).toBeTruthy();
-                expect(address.city).toBeTruthy();
-                expect(address.state).toBeTruthy();
-                expect(address.zip).toBeTruthy();
-            });   
-        });
-    });
-
-    it("has a drivers license description", function() {
-        expect(state.driversLicenseDescription).toBeTruthy();
-        expect(state.driversLicenseDescription instanceof Array).toBe(true);
-        expect(state.driversLicenseDescription.length).toBeGreaterThan(0);
-    });
-
-    it("has a sample drivers license", function() {
-        expect(state.sampleLicense).toBeTruthy();
-    });
-});
-
-describe("Each state", function() {
-    var StateService = require('../../services/StateService');
-    var stateService = new StateService();
+    var knownState = stateService.getStateByName('Alaska');
     var statesList = stateService.getAllStates();
 
-    statesList.forEach(function(state) { 
-        var name = state.name;
-
+    var stateTest = function(state) {
         it("has a name - " + state.name, function() {
             expect(state.name).toBeTruthy();
         });
@@ -152,7 +99,7 @@ describe("Each state", function() {
 
         xit("has multiple sample addresses - " + state.name, function() {
             expect(state.addresses).toBeTruthy();
-            expect(state.addresses.length).toBeGreaterThan(1);
+            expect(state.addresses.length).toBeGreaterThan(0);
             
             state.addresses.forEach(
                 function(address) {
@@ -164,24 +111,35 @@ describe("Each state", function() {
         xdescribe("and each of its addresses - " + state.name, function() {
             var addresses = state.addresses;
 
-            it("has a street, city, state, and zip - " + state.name, function() {
+            xit("has a street, city, state, and zip" + state.name, function() {
                 addresses.forEach(function(address) {
                     expect(address.street).toBeTruthy();
                     expect(address.city).toBeTruthy();
                     expect(address.state).toBeTruthy();
                     expect(address.zip).toBeTruthy();
-                });   
+                }).pend("Work in progress - currently gathering address info...");   
             }).pend("Work in progress - currently gathering address info...");
-        }).pend("Work in progress - currently gathering address info...");
+        });
 
-        it("has a drivers license description - " + state.name, function() {
+        it("has a drivers license description" + state.name, function() {
             expect(state.driversLicenseDescription).toBeTruthy();
             expect(state.driversLicenseDescription instanceof Array).toBe(true);
             expect(state.driversLicenseDescription.length).toBeGreaterThan(0);
         });
 
-        it("has a sample drivers license - " + state.name, function() {
+        it("has a sample drivers license" + state.name, function() {
             expect(state.sampleLicense).toBeTruthy();
         });
-    });    
+    };
+
+    describe("with known test values", function() {
+        stateTest(knownState);
+    });
+
+    describe("in the full list", function() { 
+        statesList.forEach(function(stateToTest) {
+            stateTest(stateToTest);
+        });
+    });
+    
 });
