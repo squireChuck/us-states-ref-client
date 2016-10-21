@@ -1,5 +1,5 @@
 var express = require('express');
-var apiController = require('./controllers/apiController');
+var apiController = require('us-states-ref').usStatesExpressRouter;
 
 var app = express(); // Construct an express app.
 var path = require('path');
