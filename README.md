@@ -1,5 +1,4 @@
 # us-states-ref-client
-## Intro
 Quick reference of info related to U.S. states, e.g. sample addresses, driver's license formats, etc. 
 
 Self-contained example of using [us-states-ref](https://github.com/squireChuck/us-states-ref). Includes filterable web page for viewing data, exposes endpoints for your testing scripts/other personal work.
