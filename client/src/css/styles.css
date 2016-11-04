@@ -53,6 +53,7 @@ h3 {
 	display: flex;
 	flex-wrap: wrap;
 }
+
 .states .state-table {
 	display: flex;
 	flex-direction: column;
@@ -63,13 +64,37 @@ h3 {
 	/*border: 1px solid blue;*/
 }
 .states .state-table:nth-child(odd) {
-	background-color: #eee;
+	/*background-color: #f3f3f5;*/
+	border: 1px solid #b6b6b6;
 }
-
+.states .state-table th {
+	font-size: 1.5rem;
+}
+.states .state-table tbody {
+	margin-top: .5rem;
+}
 .states .state-table tr {
 	display: flex;
-	margin: 4px 0;
+	padding: 4px 0;
 }
+.states .state-table tr:nth-child(odd) {
+	color: #33AADD;
+}
+.states .state-table tr:nth-child(even) {
+	background-color: #f0f8ff;
+	color: #114477;
+}
+
 .states .state-table tr td {
 	flex: 1;
+}
+.states .state-table tr td:first-child {
+	font-family: "Century Gothic Bold", "Century Gothic";
+	/*color: #33AADD;*/
+	text-transform: uppercase;
+}
+.states .state-table tr td:nth-child(2) {
+	font-size: .9rem;
+	/*color: #114477;*/
+	letter-spacing: .5px;
 }

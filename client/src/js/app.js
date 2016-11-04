@@ -32,13 +32,10 @@ var StateTable = React.createClass({
 			}
 		}.bind(this));
 
-		var headerStyle = {
-			borderBottom: '1px solid black'
-		};
 		return (
 			<table className="state-table">
 				<thead>
-					<th style={headerStyle} colspan="2">{this.props.name} - {this.props.abbrev}</th>
+					<th colspan="2">{this.props.name} - {this.props.abbrev}</th>
 				</thead>
 				<tbody>
 					{stateRows}
