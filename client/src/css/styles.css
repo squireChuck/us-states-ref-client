@@ -1,0 +1,100 @@
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+	/*background-color: #effffa;*/
+}
+
+h3 {
+	margin: .5rem 0;
+}
+
+#container {
+	margin: 1rem;
+}
+
+.search-box {
+	display: flex;
+	width: 100%;
+	height: 1.5rem;
+	border: 1px solid #b6b6b6;
+	border-radius: 4px;
+	padding-left: .5rem;
+}
+
+/* Display information: The information to show/hide in the state table results
+*/
+
+.display-info {
+	/*border: 1px solid red;*/
+}
+.display-info .info-list {
+	display: flex;
+	justify-content: space-between;
+	max-width: 400px;
+	/*border: 1px solid blue;*/
+}
+.display-info .info-list .info-item {
+	display: flex;
+	align-items: center;
+	/*border: 1px solid green;*/
+}
+.display-info .info-list .info-item .info-item-selection {
+	display: flex;
+}
+.display-info .info-list .info-item .info-item-text {
+	display: flex;
+}
+
+/* State table information: Information for each state. 
+*/
+
+.states {
+	/*border: 1px solid red;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.states .state-table {
+	display: flex;
+	flex-direction: column;
+	margin-top: .5rem;
+	padding: 1rem;
+	border-radius: 6px;
+	width: 350px;
+	/*border: 1px solid blue;*/
+}
+.states .state-table:nth-child(odd) {
+	/*background-color: #f3f3f5;*/
+	border: 1px solid #b6b6b6;
+}
+.states .state-table th {
+	font-size: 1.5rem;
+}
+.states .state-table tbody {
+	margin-top: .5rem;
+}
+.states .state-table tr {
+	display: flex;
+	padding: 4px 0;
+}
+.states .state-table tr:nth-child(odd) {
+	color: #33AADD;
+}
+.states .state-table tr:nth-child(even) {
+	background-color: #f0f8ff;
+	color: #114477;
+}
+
+.states .state-table tr td {
+	flex: 1;
+}
+.states .state-table tr td:first-child {
+	font-family: "Century Gothic Bold", "Century Gothic";
+	/*color: #33AADD;*/
+	text-transform: uppercase;
+}
+.states .state-table tr td:nth-child(2) {
+	font-size: .9rem;
+	/*color: #114477;*/
+	letter-spacing: .5px;
+}
