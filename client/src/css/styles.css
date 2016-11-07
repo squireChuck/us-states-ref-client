@@ -92,10 +92,12 @@ h3 {
 
 .states .state-table tr td {
 	/* Continuation of flexbox for evergreen browser that support it */
-			/*flex: 1;
+	/*
+			flex: 1;
 	-webkit-flex: 1;
 	   -moz-flex: 1;
-	    -ms-flex: 1;*/
+	    -ms-flex: 1;
+	*/
 	/* Flex fallback for inconsistencies with Edge, FireFox, and IE */
 	display: inline-block;
 	width: 50%;
