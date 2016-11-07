@@ -1,17 +1,22 @@
+/* Element styles
+*/
+
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
     font-size: 16px;
-	/*background-color: #effffa;*/
 }
-
 h3 {
 	margin: .5rem 0;
 }
 
+/* ID selector styles
+*/
 #container {
 	margin: 1rem;
 }
 
+/* Class & other styles
+*/
 .search-box {
 	display: flex;
 	width: 100%;
@@ -25,7 +30,7 @@ h3 {
 */
 
 .display-info {
-	/*border: 1px solid red;*/
+	/* show me your moves!*/
 }
 .display-info .info-list {
 	display: flex;
@@ -49,7 +54,6 @@ h3 {
 */
 
 .states {
-	/*border: 1px solid red;*/
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -61,10 +65,8 @@ h3 {
 	padding: 1rem;
 	border-radius: 6px;
 	width: 350px;
-	/*border: 1px solid blue;*/
 }
 .states .state-table:nth-child(odd) {
-	/*background-color: #f3f3f5;*/
 	border: 1px solid #b6b6b6;
 }
 .states .state-table th {
@@ -74,7 +76,10 @@ h3 {
 	margin-top: .5rem;
 }
 .states .state-table tr {
-	display: flex;
+	/* Flex fallback for inconsistencies with Edge, FireFox, and IE */
+	display: inline-block;
+	width: 100%;
+	/*display: flex;*/
 	padding: 4px 0;
 }
 .states .state-table tr:nth-child(odd) {
@@ -86,15 +91,23 @@ h3 {
 }
 
 .states .state-table tr td {
-	flex: 1;
+	/* Continuation of flexbox for evergreen browser that support it */
+	/*
+			flex: 1;
+	-webkit-flex: 1;
+	   -moz-flex: 1;
+	    -ms-flex: 1;
+	*/
+	/* Flex fallback for inconsistencies with Edge, FireFox, and IE */
+	display: inline-block;
+	width: 50%;
+	vertical-align: text-top;
 }
 .states .state-table tr td:first-child {
 	font-family: "Century Gothic Bold", "Century Gothic";
-	/*color: #33AADD;*/
 	text-transform: uppercase;
 }
 .states .state-table tr td:nth-child(2) {
 	font-size: .9rem;
-	/*color: #114477;*/
 	letter-spacing: .5px;
 }
