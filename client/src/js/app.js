@@ -1,11 +1,13 @@
 var StateInfoRow = React.createClass({
 	render: function () {
+		/*jshint ignore:start */
 		return (
 			<tr>
 				<td>{this.props.label}</td>
 				<td>{this.props.children}</td>
 			</tr>
 		);
+		/*jshint ignore:end */
 	}
 });
 
@@ -15,23 +17,30 @@ var StateTable = React.createClass({
 
 		// Display info that hasn't been hidden by the user.
 		if (this.props.hideOtherInfo !== true) {
+			/*jshint ignore:start */
 			stateRows.push(<StateInfoRow label="Capital">{this.props.capital}</StateInfoRow>);
+			/*jshint ignore:end */
 		}
 
 		if (this.props.hideLicenseInfo !== true) {
+			/*jshint ignore:start */
 			stateRows.push(
 				<StateInfoRow label="Driver's License Format">{this.props.driversLicenseDescription}</StateInfoRow>,
 				<StateInfoRow label="License">{this.props.sampleLicense}</StateInfoRow>);
+			/*jshint ignore:end */
 		}
 
 		this.props.addresses.forEach(function (address) {
 			if (this.props.hideAddressInfo === true) {
 				return;
 			} else {
+				/*jshint ignore:start */
 				stateRows.push(<StateInfoRow label="Address">{address.street}<br />{address.city}, {address.state} {address.zip}</StateInfoRow>);
+				/*jshint ignore:end */
 			}
 		}.bind(this));
 
+		/*jshint ignore:start */
 		return (
 			<table className="state-table">
 				<thead>
@@ -42,6 +51,7 @@ var StateTable = React.createClass({
 				</tbody>
 			</table>
 		);
+		/*jshint ignore:end */
 	}
 });
 
@@ -53,6 +63,7 @@ var StateTables = React.createClass({
 				return;
 			}
 
+			/*jshint ignore:start */
 			return (
 				<StateTable
 					name={state.name} 
@@ -66,13 +77,16 @@ var StateTables = React.createClass({
 					hideOtherInfo={this.props.hideOtherInfo} >
 				</StateTable>
 			);
+			/*jshint ignore:end */
 		}.bind(this));
 
+		/*jshint ignore:start */
 		return (
 			<div className="states">
 				{stateTables}
 			</div>
 		);
+		/*jshint ignore:end */
 	}
 });
 
@@ -86,6 +100,7 @@ var SearchBar = React.createClass({
 		);
 	},
 	render: function () {
+		/*jshint ignore:start */
 		return (
 			<form>
 				<input className="search-box"
@@ -127,6 +142,7 @@ var SearchBar = React.createClass({
 				</section>
 			</form>
 		);
+		/*jshint ignore:end */
 	}
 });
 
@@ -146,7 +162,7 @@ var FilterableStateTables = React.createClass({
 			hideAddressInfo: hideAddressInfo,
 			hideLicenseInfo: hideLicenseInfo,
 			hideOtherInfo: hideOtherInfo
-		})
+		});
 	},
 	componentDidMount: function () {
 		$.ajax({
@@ -162,6 +178,7 @@ var FilterableStateTables = React.createClass({
 		});
 	},
 	render: function () {
+		/*jshint ignore:start */
 		return (
 			<div>
 				<SearchBar
@@ -180,10 +197,13 @@ var FilterableStateTables = React.createClass({
 					/>
 			</div>
 		);
+		/*jshint ignore:end */
 	}
 });
 
+/*jshint ignore:start */
 ReactDOM.render(
 	<FilterableStateTables url="/usstates/api/v1/states" />,
 	document.getElementById('container')
 );
+/*jshint ignore:end */

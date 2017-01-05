@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
-    "us-states-ref": "^1.0.5"
+    "us-states-ref": "^1.1.0"
   },
   "devDependencies": {
     "jasmine": "^2.5.2"
