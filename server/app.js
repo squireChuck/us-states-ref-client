@@ -5,14 +5,22 @@ var app = express(); // Construct an express app.
 var path = require('path');
 var port = process.env.PORT || 3000;
 
-// Path to the client folder, which we can use as the root to the path for 
+// Path to the client folder, which we can use as the root to the path for
 // js, css, etc.
 var clientRootPath = path.resolve(__dirname + '/../client');
 
-// css, js, other useful folders for the page. 
+// css, js, other useful folders for the page.
 app.use('/src', express.static(clientRootPath + '/src'));
 
-// Redirect url's with trailing slashes to the same URL but sans the slash. 
+// Enable CORS (Cross-Origin Resource Sharing) for Bookmarklet AJAX calls.
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
+// Redirect url's with trailing slashes to the same URL but sans the slash.
 app.use(function(req, res, next) {
    if(req.url.substr(-1) == '/' && req.url.length > 1)
        res.redirect(301, req.url.slice(0, -1));
@@ -23,7 +31,7 @@ app.use(function(req, res, next) {
 // Puts the endpoints onto the Express app.
 app.use('/usstates', apiController);
 
-// Similar to apiController - GET request to localhost:3000/app will serve the index.html 
+// Similar to apiController - GET request to localhost:3000/app will serve the index.html
 app.get('/usstates', function(req,res){
  res.sendFile(clientRootPath + '/index.html');
 });
